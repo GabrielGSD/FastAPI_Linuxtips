@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlmodel
+typer # permite criar ferramenta de linha de comando para gerenciar o projeto
+dynaconf # gerenciar as configs (exportar várias de ambiente)
+jinja2
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart # para trabalhar com arquivos (upload de imagem)
+psycopg2-binary
+alembic
+rich # para formatar o console
