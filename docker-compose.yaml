@@ -22,8 +22,7 @@ services:
     volumes:
       - $HOME/.postgres/pamps_db/data/postgresql:/var/lib/postgresql/data
     ports:
-      # ATENÇÃO: Mude para 5432: se precisar acessar via host
-      - "5435:5432"
+      - "5432:5432"
     environment:
       - POSTGRES_DBS=pamps, pamps_test
       - POSTGRES_USER=postgres
